@@ -1,0 +1,432 @@
+* {
+	margin: 0;
+}
+
+html,
+body {
+	font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+	max-width: 100%;
+}
+
+.globalNav {
+	font-family: Open Sans, Roboto, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+
+	z-index: 500;
+	height: 50px;
+	-webkit-perspective: 2000px;
+	perspective: 2000px;
+	color: #318fce;
+}
+
+.wrapper {
+	width: 96%;
+	max-width: 1360px;
+	margin: auto;
+	padding: 0 2%;
+}
+
+ul li,
+ul,
+ol li {
+	color: #53616c !important;
+	list-style: none;
+}
+
+.globalNav .navSection.logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.globalNav {
+	margin: 50px 50px 0 50px;
+}
+
+#logo {
+	margin-left: 30px;
+}
+
+.parim-dark-header a#logo {
+	background: url(../styles/assets/images/Website\ logo\ dark\ grey.svg) no-repeat 0 0;
+	background-size: 154px 42px;
+	width: 154px;
+	height: 42px;
+	display: block;
+}
+
+.globalNav .navSection.secondary {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 30px;
+}
+
+.globalNav .navSection.primary {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: #3b4c53;
+	margin: 20px 0px 20px 0px;
+}
+
+.globalNav .navSection.primary,
+.globalNav .navSection.secondary {
+	/* display: -webkit-box; */
+	/* display: -webkit-flex; */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.globalNav .rootLink {
+	padding: 0 30px;
+}
+
+.globalNav .navSection.secondary a {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.secondary {
+	color: #318fce;
+	font-weight: 500;
+}
+
+.globalNav .rootLink {
+	display: inline-block;
+	height: 50px;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: 400;
+	margin: 0;
+	margin-top: 6px;
+	padding: 0 60px;
+	position: relative;
+}
+
+.item-products {
+	color: #3b4c53;
+	margin: 10px 30px 0 30px;
+}
+
+.item-company {
+	color: #3b4c53;
+	margin: 10px 30px 0 30px;
+}
+
+.item-developers {
+	color: #3b4c53;
+	margin: 10px 30px 0 30px;
+}
+
+#signIn {
+	padding-right: 40px;
+}
+
+/* ****** Main body ********** */
+.mainBody {
+	text-align: center;
+	margin: 40px;
+}
+
+.firstH1 {
+	white-space: pre-line;
+	color: #fff;
+	font-size: 55px;
+	text-align: center;
+	display: block;
+	/* margin: auto; */
+	font-weight: 700;
+}
+
+h1 {
+	white-space: pre-line;
+	color: #fff;
+	font-size: 55px;
+	text-align: center;
+	display: block;
+	/* margin: auto; */
+	font-weight: 700;
+}
+
+.secondH1 {
+	font-weight: 100;
+}
+
+h1::first-line {
+	margin-top: 40px;
+	font-family: Roboto;
+	font-style: normal;
+	/* font-weight: bold; */
+	font-size: 55px;
+	line-height: 140.62%;
+	/* or 77px */
+	margin: auto;
+	text-align: center;
+	color: rgba(40, 58, 66, 0.8);
+}
+
+.titles {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: -0.5px;
+	color: #3A4C53;
+	display: block;
+}
+
+.first-text {
+	font-size: 1.4rem;
+	top: 250px;
+	margin-top: 20px;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+.formContainer {
+	top: 500px;
+}
+
+form {
+	width: 350px;
+	display: block;
+	margin: 50px auto 0 auto;
+}
+
+#nameInput {
+	height: 50px;
+}
+
+
+#tNameInput {
+	height: 50px;
+	/* margin-bottom: 20px; */
+}
+
+#try {
+	margin-top: 30px;
+}
+
+.inputHeader {
+	margin-bottom: 10px;
+}
+
+*/ .center-block {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tryFree {
+	font-weight: bold;
+	color: #318fce;
+}
+
+.iPhoneX_Mockup {
+	height: 786px;
+	margin-top: -30px;
+}
+
+.background {
+	display: block;
+	position: absolute;
+	z-index: -100;
+	width: 90%;
+	height: 90%;
+	margin: 50px 0 0 260px;
+}
+
+.section2 {
+	top: 150px;
+}
+
+.subTitle {
+	height: 74px;
+	top: 1350px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 54px;
+	line-height: 74px;
+	text-align: center;
+	letter-spacing: -1px;
+	color: #3B4C53;
+}
+
+.subTitleBody {
+	height: 78px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.5px;
+	color: #3B4C53;
+	width: 600px;
+	margin: 0 auto 60px auto;
+}
+
+.card-deck {
+	width: 70%;
+	margin: 0 50px 0 50px;
+	padding: 50px;
+}
+
+.card-surround {
+	border: 0.5px solid #d1dbe3;
+	margin: 0 20px;
+}
+
+.center {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.card-body {
+	top: 25.62%;
+	text-align: center;
+	color: lightgray;
+}
+
+.card-img-top {
+	height: 70px;
+	text-align: center;
+	margin: 40px 0 40px 0;
+}
+
+.card-title {
+	color: #318fce;
+}
+
+.card-text {
+	margin-bottom: 30px !important;
+}
+
+.hr1 {
+	width: 80%;
+	margin: auto;
+}
+
+.pitch1 {
+	text-align: center;
+}
+
+.first {
+	margin-top: 80px;
+	font-weight: 100;
+}
+
+.second {
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.fine {
+	margin-bottom: 60px;
+	color: #82919d;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.5px;
+	width: 500px;
+	margin: 0 auto 60px auto;
+	font-size: 18px;
+}
+
+.fine-inner {
+	font-weight: bold;
+	color: #82919d;
+	height: 78px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.5px;
+	width: 600px;
+	margin: 0 auto 60px auto;
+}
+
+.btn {
+	background-color: #318fce;
+}
+
+.background2 {
+	width: -moz-available;
+	margin-bottom: 370px;
+}
+
+.grid {
+	text-align: center;
+	margin: 0 100px 50px 100px;
+	padding: 0 200px 0 200px;
+}
+
+.first1 {
+	white-space: pre-line;
+	color: #fff;
+	font-size: 55px;
+	text-align: center;
+	/* margin: auto; */
+	top: 200px;
+	font-weight: 100;
+}
+
+.first1::first-line {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 55px;
+	line-height: 140.62%;
+	margin: auto;
+	text-align: center;
+	color: rgba(40, 58, 66, 0.8);
+}
+
+.second2 {
+	font-weight: 900;
+	margin-bottom: 70px;
+}
+
+.gridRow {
+	margin: 0 100px 0 100px;
+}
+
+.gridImages {
+	float: left;
+	height: 105px;
+	width: auto;
+}
+
+.gridTitles {
+	font-weight: 600;
+	padding-top: 20px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: -0.5px;
+
+	color: #3B4C53;
+}
+
+.content {
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: -0.318182px;
+}
